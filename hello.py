@@ -1,3 +1,2 @@
-print("Hello world!")
-print("Bye!")
-#Comment
+name = input("What is your name? ")
+print("Hello {}".format(name))
