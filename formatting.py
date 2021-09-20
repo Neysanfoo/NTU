@@ -21,7 +21,7 @@ last_name = "Foo"
 
 from datetime import datetime
 
-birthday = datetime(2000,5,5)
+birthday = datetime(2000, 5, 5)
 
-sentence = f'Neysan has a birthday on {birthday:%B %d, %Y}'
+sentence = f"Neysan has a birthday on {birthday:%B %d, %Y}"
 print(sentence)
