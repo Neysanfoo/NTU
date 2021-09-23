@@ -1,5 +1,5 @@
 # Lambda expression = Anonymous function
-# lambda x1,x2,x3... : (return) 
+# lambda x1,x2,x3... : (return)
 
 
 # Write a function to compute 3x+1
