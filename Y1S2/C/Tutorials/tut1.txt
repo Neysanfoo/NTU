@@ -1,0 +1,59 @@
+1a. Char
+1b. Int
+1c. Float
+1d. Array
+1e. Int
+1f. Char
+1g. long
+1h. Float
+1i. Int
+1j. Int
+1k. Int
+1l. long
+
+2a. AAAA
+2b. A65AA
+2c. )
+2d. e
+0x --> Hex
+0  --> Octal
+
+3a. Assigns first two user integer inputs to the variables x and y.
+3b. Error
+3c. Assigns integers in the for %d/%d to x and y.
+
+4. Precision Error
+
+5a. 5
+5b. 4
+5c. 224.0
+5d. 10
+5e. 10
+5f. -24.6
+5g. m=n=j=1
+5h. 30
+5i. 34
+5j. 30
+
+6a.
+
+
+7a. #define DLENGTH to something less than 32000
+7b. #define DLENGTH 32000000
+7c. [-] #define DLENGTH 320000
+    [+] int length;
+    [+] scanf("%d", &length);
+
+8. Yes
+
+9. Swapping with temp:
+#include <stdio.h>
+
+int main(void)
+{
+	int x = 5;
+	int y = 7;
+	x = x+y;  // x becomes 12
+	y = x-y;  // y becomes 5
+	x = x-y;  // x becomes 7
+}
