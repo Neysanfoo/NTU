@@ -5,6 +5,7 @@ public class P1 {
 
   public static void main(String[] args) {
     int choice;
+    int m,n;
 
     do {
       System.out.println("Perform the following methods:");
@@ -21,30 +22,35 @@ public class P1 {
           mulTest();
           break;
         case 2: /* add divide() call */
-          System.out.println(divide(4, 7));
-          System.out.println(divide(7, 7));
-          System.out.println(divide(25, 7));
+          System.out.println("Enter m:");
+          m = sc.nextInt();
+          System.out.println("Enter n:");
+          n = sc.nextInt();
+          System.out.println(divide(m,n)); 
           break;
         case 3: /* add modulus() call */
-          System.out.println(modulus(4, 7));
-          System.out.println(modulus(7, 7));
-          System.out.println(modulus(25, 7));
+          System.out.println("Enter m:");
+          m = sc.nextInt();
+          System.out.println("Enter n:");
+          n = sc.nextInt();
+          System.out.println(modulus(m, n));
           break;
         case 4: /* add countDigits() call */
-          System.out.println(countDigits(12412));
-          System.out.println(countDigits(123));
-          System.out.println(countDigits(121456));
+          System.out.println("Enter a number: ");
+          m = sc.nextInt();
+          System.out.println(countDigits(m));
           break;
         case 5: /* add position() call */
-          System.out.println(position(12345, 3));
-          System.out.println(position(123, 4));
-          System.out.println(position(12145, 1));
+          System.out.println("Enter a number:");
+          m = sc.nextInt();
+          System.out.println("Enter a digit: ");
+          n = sc.nextInt();
+          System.out.println(position(m, n));
           break;
         case 6: /* add extractOddDigits() call */
-          System.out.println(extractOddDigits(12345));
-          System.out.println(extractOddDigits(54123));
-          System.out.println(extractOddDigits(246));
-          System.out.println(extractOddDigits(-12));
+          System.out.println("Enter a number:");
+          m = sc.nextInt();
+          System.out.println(extractOddDigits(m));
           break;
         case 7:
           System.out.println("Program terminating ...");
@@ -66,6 +72,7 @@ public class P1 {
       }
     }
     System.out.println(correctCount + " answers out of 5 are correct.");
+    System.out.println("---------------------------------------------");
   }
 
   public static int divide(int m, int n) {
